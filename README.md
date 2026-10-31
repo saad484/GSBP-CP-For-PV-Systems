@@ -51,21 +51,6 @@ The Zenodo package provides:
 
 S5 was reserved in the acquisition schedule and was not executed.
 
-## Recommended evaluation
-
-Use the provided `split` column rather than randomly splitting consecutive records, which are
-near-duplicates. The released time-matched partition contains **177,172 training records**,
-**34,107 test records**, and **11,936 dropped records**. Attack repetitions 1–2 are used for
-training and repetition 3 for testing, with time-matched normal control bands and a 120-second
-guard band.
-
-Report false-alarm rates and an operating point alongside ROC-AUC. Select thresholds using
-training data. For multiclass results, also report the ambient-only baseline because attack
-families were collected in distinct time blocks. The `split_time_disjoint` column is provided
-to study temporal confounding and is not the benchmark partition.
-
-Consult the documentation included in the Zenodo download for feature definitions, known
-limitations, activity outside the logged attack windows, and detailed evaluation guidance.
 
 ## Citation
 
@@ -88,11 +73,7 @@ Please cite the dataset:
 }
 ```
 
-The accompanying article is listed in the dataset documentation as:
 
-> S. Aiddi, S. A. Sana, I. Ait abdelmoula, M. Jouhari, and A. Motii,
-> “GSBP-CP: A Real-Hardware Cross-Layer Cybersecurity Dataset for Intrusion Detection in
-> Grid-Connected Photovoltaic Systems,” 2026 (under review in the release documentation).
 
 Use the Zenodo record for the published dataset metadata.
 
