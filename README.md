@@ -49,7 +49,7 @@ The Zenodo package provides:
 | S6 | ARP spoofing | 1,575 |
 | S7 | MQTT injection | 1,546 |
 
-S5 was reserved in the acquisition schedule and was not executed.
+
 
 
 ## Citation
@@ -91,7 +91,6 @@ site and one inverter vendor; consult the datasheet before generalising results.
 
 **Saad Aiddi · Sidi Ahmadou Sana · Ibtihal Ait abdelmoula · Mohammed Jouhari · Anas Motii**
 
-Corresponding author: **Saad AIDDI**, College of Computing, Mohammed VI Polytechnic University (UM6P).
 
 Questions and reproducibility reports can also be submitted through
 [GitHub Issues](https://github.com/saad484/GSBP-CP-For-PV-Systems/issues).
